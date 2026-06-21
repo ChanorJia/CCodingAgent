@@ -22,3 +22,43 @@ Icon?
 
 # macOS archive metadata
 __MACOSX/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Python type checker and tool caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Python notebooks
+.ipynb_checkpoints/
+
+# Python environment files
+.env
+.env.*
